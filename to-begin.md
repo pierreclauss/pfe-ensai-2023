@@ -104,7 +104,8 @@ work with often feels like a fight” [R for Data
 Science](https://r4ds.had.co.nz/introduction.html) (Grolemund G. and
 Wickham H.).
 
-I could need for the project monthly returns to model on for instance.
+I could need, for the project, monthly returns to model on, for
+instance.
 
 ``` r
 # transmute
@@ -129,7 +130,7 @@ tail(cac_monthly_returns)
     ## 6 2023-10-27     -0.0476
 
 We can see below, thanks to the package **DataExplorer**, a summary of
-the tidy data observed for the variable.
+the tidy observed data.
 
 ``` r
 library(DataExplorer)
@@ -175,4 +176,4 @@ plot_qq(cac_monthly_returns)
 
 ![](to-begin_files/figure-gfm/dataviz_2-2.png)<!-- -->
 
-You are ready now to use data!
+You are ready now to use financial data!
